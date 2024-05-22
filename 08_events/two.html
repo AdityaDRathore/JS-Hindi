@@ -6,6 +6,24 @@
     <title>Chai aur code</title>
 </head>
 <body>
-    
+    <h1>Chai aur Code</h1>
+    <button id="stop">Stop</button>
 </body>
+<script>
+    const sayName = function() {
+        console.log("Aditya"); 
+    }
+    const changeText = setTimeout(function(){
+    document.querySelector('h1').innerHTML = "Best JS Series"
+
+    },2000)
+    const alertPop = setTimeout(function(){
+        alert("Updated version of this website is also available"); 
+    }, 5000)
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeText); 
+        console.log("Task complete"); 
+    }) 
+</script>
 </html>
