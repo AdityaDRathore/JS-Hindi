@@ -190,8 +190,8 @@ function newGame() {
   });
 }
 
-
 ```
+
 # Project 5 solution
 ## Keys identifier
 
